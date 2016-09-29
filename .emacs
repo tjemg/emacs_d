@@ -12,7 +12,7 @@
     ("962dacd99e5a99801ca7257f25be7be0cebc333ad07be97efd6ff59755e6148f" default)))
  '(package-selected-packages
    (quote
-    (airline-themes powerline org-evil helm-w3m helm-ag w3m evil-magit evil-org evil))))
+    (dircmp airline-themes powerline org-evil helm-w3m helm-ag w3m evil-magit evil-org evil))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -23,6 +23,7 @@
 
 (require 'powerline)
 (powerline-default-theme)
+(display-time-mode)
 
 (require 'magit)
 
@@ -56,3 +57,5 @@
 
 ;; enable SHIFT+arrow to switch to adjacent window
 (windmove-default-keybindings)
+
+(require 'dircmp)
