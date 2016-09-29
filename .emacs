@@ -53,3 +53,6 @@
 (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
 (setq w3m-default-display-inline-images t)
 (setq w3m-use-cookies t)
+
+;; enable SHIFT+arrow to switch to adjacent window
+(windmove-default-keybindings)
