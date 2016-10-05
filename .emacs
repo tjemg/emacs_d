@@ -62,3 +62,5 @@
 
 (require 'ace-window)
 (global-set-key (kbd "C-x o") 'ace-window)
+(global-set-key (kbd "M-<left>") 'eww-back-url)
+(global-set-key (kbd "M-<right>") 'eww-forward-url)
