@@ -12,7 +12,7 @@
     ("962dacd99e5a99801ca7257f25be7be0cebc333ad07be97efd6ff59755e6148f" default)))
  '(package-selected-packages
    (quote
-    (ace-window dircmp airline-themes powerline org-evil helm-w3m helm-ag w3m evil-magit evil-org evil))))
+    (dumb-jump ace-window dircmp airline-themes powerline org-evil helm-w3m helm-ag w3m evil-magit evil-org evil))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -64,3 +64,5 @@
 (global-set-key (kbd "C-x o") 'ace-window)
 (global-set-key (kbd "M-<left>") 'eww-back-url)
 (global-set-key (kbd "M-<right>") 'eww-forward-url)
+
+(dumb-jump-mode)
